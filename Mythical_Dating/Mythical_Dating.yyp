@@ -11,6 +11,7 @@
   "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Dialogue System","folderPath":"folders/Objects/Dialogue System.yy","name":"Dialogue System","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -25,6 +26,7 @@
   "resources":[
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_scenechange","path":"objects/obj_scenechange/obj_scenechange.yy",},},
+    {"id":{"name":"obj_textBox","path":"objects/obj_textBox/obj_textBox.yy",},},
     {"id":{"name":"obj_wall_collision","path":"objects/obj_wall_collision/obj_wall_collision.yy",},},
     {"id":{"name":"Bar","path":"rooms/Bar/Bar.yy",},},
     {"id":{"name":"Bar2","path":"rooms/Bar2/Bar2.yy",},},
@@ -35,6 +37,7 @@
     {"id":{"name":"spr_decore","path":"sprites/spr_decore/spr_decore.yy",},},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},},
     {"id":{"name":"spr_SceneChange","path":"sprites/spr_SceneChange/spr_SceneChange.yy",},},
+    {"id":{"name":"spr_TextBackground","path":"sprites/spr_TextBackground/spr_TextBackground.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
   ],
   "resourceType":"GMProject",
