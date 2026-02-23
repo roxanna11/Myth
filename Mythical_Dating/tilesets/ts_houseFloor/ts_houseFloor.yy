@@ -12,8 +12,8 @@
   "out_tilehborder":0,
   "out_tilevborder":0,
   "parent":{
-    "name":"house",
-    "path":"folders/Sprites/tilesets/house.yy",
+    "name":"tilesets",
+    "path":"folders/Sprites/insideHouse/tilesets.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

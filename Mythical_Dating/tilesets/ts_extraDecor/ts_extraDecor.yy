@@ -1,16 +1,16 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_houseDetails",
+  "%Name":"ts_extraDecor",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_houseDetails",
-  "out_columns":57,
-  "out_tilehborder":0,
-  "out_tilevborder":0,
+  "name":"ts_extraDecor",
+  "out_columns":17,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
   "parent":{
     "name":"tilesets",
     "path":"folders/Sprites/insideHouse/tilesets.yy",
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_houseDetails",
-    "path":"sprites/spr_houseDetails/spr_houseDetails.yy",
+    "name":"spr_moreDecor",
+    "path":"sprites/spr_moreDecor/spr_moreDecor.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -28,11 +28,11 @@
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":16,
+  "tileHeight":32,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":8,
+  "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":1653,
+  "tile_count":286,
 }

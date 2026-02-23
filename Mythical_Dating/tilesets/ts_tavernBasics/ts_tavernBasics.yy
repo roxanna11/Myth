@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"tilesets",
-    "path":"folders/Sprites/tilesets.yy",
+    "name":"barEnviroment",
+    "path":"folders/Sprites/barEnviroment.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

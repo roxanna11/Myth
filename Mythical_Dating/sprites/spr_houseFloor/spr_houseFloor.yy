@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"house",
-    "path":"folders/Sprites/tilesets/house.yy",
+    "name":"insideHouse",
+    "path":"folders/Sprites/insideHouse.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

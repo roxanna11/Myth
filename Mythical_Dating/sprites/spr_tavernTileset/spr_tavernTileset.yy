@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"tilesets",
-    "path":"folders/Sprites/tilesets.yy",
+    "name":"barEnviroment",
+    "path":"folders/Sprites/barEnviroment.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
