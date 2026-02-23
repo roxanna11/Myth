@@ -62,10 +62,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":768,
+    "Height":2560,
     "inheritRoomSettings":true,
     "persistent":false,
-    "Width":1366,
+    "Width":2560,
   },
   "sequenceId":null,
   "views":[
@@ -81,7 +81,7 @@
   "viewSettings":{
     "clearDisplayBuffer":true,
     "clearViewBackground":false,
-    "enableViews":false,
+    "enableViews":true,
     "inheritViewSettings":true,
   },
   "volume":1.0,
