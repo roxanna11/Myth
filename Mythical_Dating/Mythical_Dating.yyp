@@ -28,6 +28,7 @@
   },
   "name":"Mythical_Dating",
   "resources":[
+    {"id":{"name":"obj_doorCollisions","path":"objects/obj_doorCollisions/obj_doorCollisions.yy",},},
     {"id":{"name":"obj_funitureCollisions","path":"objects/obj_funitureCollisions/obj_funitureCollisions.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_wallCollisions","path":"objects/obj_wallCollisions/obj_wallCollisions.yy",},},
@@ -37,6 +38,7 @@
     {"id":{"name":"BetweenBarHouse","path":"rooms/BetweenBarHouse/BetweenBarHouse.yy",},},
     {"id":{"name":"House","path":"rooms/House/House.yy",},},
     {"id":{"name":"spr_bathroomBasics","path":"sprites/spr_bathroomBasics/spr_bathroomBasics.yy",},},
+    {"id":{"name":"spr_doorBlocking","path":"sprites/spr_doorBlocking/spr_doorBlocking.yy",},},
     {"id":{"name":"spr_funitureBlock","path":"sprites/spr_funitureBlock/spr_funitureBlock.yy",},},
     {"id":{"name":"spr_houseBlocking","path":"sprites/spr_houseBlocking/spr_houseBlocking.yy",},},
     {"id":{"name":"spr_houseDetails","path":"sprites/spr_houseDetails/spr_houseDetails.yy",},},
