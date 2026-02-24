@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Dialogue Sprites",
+    "path":"folders/Sprites/Dialogue Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

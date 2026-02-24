@@ -28,3 +28,6 @@ optionNumber = 0;
 setup = false;
 
 text_x_offset[0] = 44;
+
+layer_set_visible("DialogueForeground", true);
+instance_deactivate_object(obj_Player);

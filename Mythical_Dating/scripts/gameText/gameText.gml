@@ -7,11 +7,15 @@ function gameText(_textID)
 			
 			callOption("Nice to meet you", "Slender - Greeting");
 			callOption("Fuck Off", "Slender - Fuck Off");
+			callOption("Yes", "Slender - Time");
 			break;
 			case "Slender - Greeting":
 				callText("Anyway enjoy the game.", "Slender");
 				break;
 			case "Slender - Fuck Off":
+				callText("Fuck you too asshole.", "Slender");
+				break;
+			case "Slender - Time":
 				callText("Fuck you too asshole.", "Slender");
 				break;
 		case "Gnome":

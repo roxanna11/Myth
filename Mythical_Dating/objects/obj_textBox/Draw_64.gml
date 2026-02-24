@@ -88,7 +88,7 @@ if(drawChar == text_length[page] && page == pageNumber - 1)
 		//The arrow
 		if(optionPos == op)
 		{
-			draw_sprite(spr_arrow, 0, textBoxX, _textBoxY - _opSpace * optionNumber + _opSpace*op);
+			draw_sprite(spr_arrow, 0, textBoxX + 32, _textBoxY - _opSpace * optionNumber + _opSpace*op);
 		}
 			
 		//Option text
