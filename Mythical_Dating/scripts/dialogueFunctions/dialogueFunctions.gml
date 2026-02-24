@@ -1,10 +1,23 @@
+function callSprite()
+{
+	speakerSprite[pageNumber] = noone;
+	speakerSide[pageNumber] = 1;
+}
+
 ///@param dialogue text
 function callText(_text, _name)
 { //Creates text
 	text[pageNumber] = _text;
 	
+	switch(_name)
+	{
+		case "Slender":
+			speakerSprite[pageNumber] = spr_speakBox;
+			name = _name;
+			break;
+	}
+	
 	pageNumber++;
-	name = _name;
 }
 
 ///@param Calls the link id

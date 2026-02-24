@@ -16,6 +16,9 @@ text_length[0] = string_length(text[0]);
 page = 0;
 pageNumber = 0;
 
+//speakerSprite[0] = spr_speakBox;
+//speakerSide[0] = noone;
+
 drawChar = 0;
 textSpeed = 1;
 
@@ -31,3 +34,5 @@ text_x_offset[0] = 44;
 
 layer_set_visible("DialogueForeground", true);
 instance_deactivate_object(obj_Player);
+
+callSprite();

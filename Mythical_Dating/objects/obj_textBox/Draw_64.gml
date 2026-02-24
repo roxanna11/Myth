@@ -21,7 +21,13 @@ if(setup == false)
 		text_length[i] = string_length(text[i]);
 		
 		//Get x position for textbox
-		text_x_offset[i] = 44;
+		if(speakerSprite[i] == noone) text_x_offset[i] = 44;
+		else
+		{
+			//Character on the left
+			text_x_offset[i] = 80;
+			portrait_x_offset[i] = 16;
+		}
 	}
 	
 }
@@ -67,6 +73,14 @@ var _textBoxY = textBoxY;
 textBoxSpriteW = sprite_get_width(textBoxSpr);
 textBoxSpriteH = sprite_get_height(textBoxSpr);
 
+if (speakerSprite[page] != noone)
+{
+	sprite_index = speakerSprite[page];
+	var _speakerX = textBoxX - portrait_x_offset[page];
+	
+	draw_sprite_ext(sprite_index, 0, _speakerX, textBoxY, speakerSide[page], 1, 0, c_white, 1);
+}
+
 draw_sprite_ext(textBoxSpr, 0, textBoxX + text_x_offset[page], textBoxY, 
 	textBoxW/textBoxSpriteW, textBoxH/textBoxSpriteH, 0, c_white, 1);
 	
@@ -95,7 +109,8 @@ if(drawChar == text_length[page] && page == pageNumber - 1)
 		}
 			
 		//Option text
-		draw_text(textBoxX + 72 + _opBoard, _textBoxY - _opSpace * optionNumber + _opSpace*op + 4, option[op])
+		if(speakerSprite[page] != noone) draw_text(textBoxX + 112 + _opBoard, _textBoxY - _opSpace * optionNumber + _opSpace*op + 4, option[op])
+		else draw_text(textBoxX + 72 + _opBoard, _textBoxY - _opSpace * optionNumber + _opSpace*op + 4, option[op])
 	}
 }
 	
