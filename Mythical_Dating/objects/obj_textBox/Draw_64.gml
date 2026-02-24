@@ -75,10 +75,10 @@ textBoxSpriteH = sprite_get_height(textBoxSpr);
 
 if (speakerSprite[page] != noone)
 {
-	sprite_index = speakerSprite[page];
+	//sprite_index = speakerSprite[page];
 	var _speakerX = textBoxX - portrait_x_offset[page];
 	
-	draw_sprite_ext(sprite_index, 0, _speakerX, textBoxY, speakerSide[page], 1, 0, c_white, 1);
+	draw_sprite_ext(speakerSprite[page], 0, _speakerX, textBoxY+64, speakerSide[page]*2, speakerSide[page]*2, 0, c_white, 1);
 }
 
 draw_sprite_ext(textBoxSpr, 0, textBoxX + text_x_offset[page], textBoxY, 
