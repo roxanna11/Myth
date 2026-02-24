@@ -1,9 +1,10 @@
 ///@param dialogue text
-function scr_text(_text)
+function callText(_text, _name)
 { //Creates text
 	text[pageNumber] = _text;
 	
 	pageNumber++;
+	name = _name;
 }
 
 ///@param Calls the link id

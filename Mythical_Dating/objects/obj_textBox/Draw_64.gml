@@ -99,3 +99,4 @@ if(drawChar == text_length[page] && page == pageNumber - 1)
 var _drawText = string_copy(text[page], 1, drawChar);
 draw_text_ext(textBoxX + text_x_offset[page] + border, textBoxY + border, name, lineSep, lineWidth);
 draw_text_ext(textBoxX + text_x_offset[page] + border, textBoxY + 32 + border, _drawText, lineSep, lineWidth);
+draw_text(textBoxX + text_x_offset[page] + border, textBoxY + border, name);

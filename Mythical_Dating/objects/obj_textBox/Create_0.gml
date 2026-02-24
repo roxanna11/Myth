@@ -11,7 +11,7 @@ textBoxSpr = spr_TextBackground;
 
 //page
 text[0] = "";
-name = "";
+name = "LArry";
 text_length[0] = string_length(text[0]);
 page = 0;
 pageNumber = 0;

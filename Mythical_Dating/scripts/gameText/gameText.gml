@@ -3,25 +3,25 @@ function gameText(_textID)
 	switch(_textID) //Reference any text ID below to trigger their corresponding dialogue.
 	{
 		case "Slender":
-			scr_text("Hi I'm the Slenderman.");
+			callText("Hi I'm the Slenderman.", "Slender");
 			
 			callOption("Nice to meet you", "Slender - Greeting");
 			callOption("Fuck Off", "Slender - Fuck Off");
 			break;
 			case "Slender - Greeting":
-				scr_text("Anyway enjoy the game.");
+				callText("Anyway enjoy the game.", "Slender");
 				break;
 			case "Slender - Fuck Off":
-				scr_text("Fuck you too asshole.");
+				callText("Fuck you too asshole.", "Slender");
 				break;
 		case "Gnome":
-			scr_text("Hi I'm the Gnome.");
+			callText("Hi I'm the Gnome.", "Gnome");
 			break;
 		case "Nessie":
-			scr_text("Hi I'm the Nessie.");
+			callText("Hi I'm the Nessie.", "Nessie");
 			break;
 		case "Bigfoot":
-			scr_text("Hi I'm the Bigfoot.");
+			callText("Hi I'm the Bigfoot.", "Bigfoot");
 			break;
 	}
 }
