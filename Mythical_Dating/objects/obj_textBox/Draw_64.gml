@@ -1,5 +1,8 @@
 acceptKey = keyboard_check_pressed(vk_space);
 
+movementKeys = (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(ord("A")) || 
+	keyboard_check_pressed(ord("S")) || keyboard_check_pressed(ord("D")))
+
 textBoxX = 96;
 textBoxY = 480;
 
@@ -31,7 +34,7 @@ if(drawChar < text_length[page])
 }
 
 //flip through pages
-if(acceptKey)
+if(acceptKey || (movementKeys && instance_exists(obj_Player)))
 {
 	//If text is done typing
 	if(drawChar == text_length[page])
@@ -88,7 +91,7 @@ if(drawChar == text_length[page] && page == pageNumber - 1)
 		//The arrow
 		if(optionPos == op)
 		{
-			draw_sprite(spr_arrow, 0, textBoxX + 32, _textBoxY - _opSpace * optionNumber + _opSpace*op);
+			draw_sprite(spr_arrow, 0, textBoxX + 48, _textBoxY - _opSpace * optionNumber + _opSpace*op);
 		}
 			
 		//Option text
