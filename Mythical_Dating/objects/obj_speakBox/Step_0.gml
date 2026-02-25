@@ -12,7 +12,7 @@ switch(textID)
 		sprite_index = spr_Toothy;
 		break;
 	case "Gnomes":
-		sprite_index = spr_Gnonmes;
+		sprite_index = spr_hiddenGnonmes;
 		break;
 	case "Yeti":
 		sprite_index = spr_Yeti;

@@ -46,6 +46,7 @@
     {"id":{"name":"spr_decore","path":"sprites/spr_decore/spr_decore.yy",},},
     {"id":{"name":"spr_Gnonmes","path":"sprites/spr_Gnonmes/spr_Gnonmes.yy",},},
     {"id":{"name":"spr_Hatman","path":"sprites/spr_Hatman/spr_Hatman.yy",},},
+    {"id":{"name":"spr_hiddenGnonmes","path":"sprites/spr_hiddenGnonmes/spr_hiddenGnonmes.yy",},},
     {"id":{"name":"spr_Kraken","path":"sprites/spr_Kraken/spr_Kraken.yy",},},
     {"id":{"name":"spr_Phone","path":"sprites/spr_Phone/spr_Phone.yy",},},
     {"id":{"name":"spr_PhoneGuy","path":"sprites/spr_PhoneGuy/spr_PhoneGuy.yy",},},
