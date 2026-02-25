@@ -42,9 +42,10 @@ if(drawChar < text_length[page])
 //flip through pages
 if(acceptKey || (movementKeys && instance_exists(obj_Player)))
 {
+	
 	//If text is done typing
 	if(drawChar == text_length[page])
-	{
+	{	
 		if(page < pageNumber - 1)
 		{
 			page++;
