@@ -18,14 +18,31 @@ function gameText(_textID)
 			case "Slender - Time":
 				callText("Fuck you too asshole.", "Slender");
 				break;
-		case "Gnome":
-			callText("Hi I'm the Gnome.", "Gnome");
+				
+				
+		case "Gnomes":
+			callText("Hi I'm the Gnomes.", "Gnomes");
 			break;
+			
+			
 		case "Nessie":
 			callText("Hi I'm the Nessie.", "Nessie");
 			break;
+			
+			
 		case "Bigfoot":
 			callText("Hi I'm the Bigfoot.", "Bigfoot");
 			break;
+			
+			
+		case "Santa":
+			callText("Hi I'm a fucking mess", "Santa");
+			
+			callOption("FIMWOUFUUNWUFWF", "Santa - Greeting");
+			break;
+			
+			case "Santa - Greeting":
+				callText("Anyway enjoy the game.", "Santa");
+				break;
 	}
 }
