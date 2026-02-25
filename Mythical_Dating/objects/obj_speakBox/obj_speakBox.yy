@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_speakBox",
-    "path":"sprites/spr_speakBox/spr_speakBox.yy",
+    "name":"spr_Slender",
+    "path":"sprites/spr_Slender/spr_Slender.yy",
   },
   "spriteMaskId":null,
   "visible":true,
