@@ -11,7 +11,7 @@ textBoxSpr = spr_TextBackground;
 
 //page
 text[0] = "";
-name = "LArry";
+name = "";
 text_length[0] = string_length(text[0]);
 page = 0;
 pageNumber = 0;
@@ -32,7 +32,7 @@ setup = false;
 
 text_x_offset[0] = 44;
 
-layer_set_visible("DialogueForeground", true);
+layer_set_visible("Dialogue", true);
 instance_deactivate_object(obj_Player);
 
 callSprite();

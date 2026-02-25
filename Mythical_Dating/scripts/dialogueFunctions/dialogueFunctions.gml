@@ -11,12 +11,27 @@ function callText(_text, _name)
 	
 	switch(_name)
 	{
+		case "Santa":
+			speakerSprite[pageNumber] = spr_Santa;
+			break;
 		case "Slender":
-			speakerSprite[pageNumber] = spr_speakBox;
-			name = _name;
+			speakerSprite[pageNumber] = spr_Slender;
+			break;
+		case "Tooth Fairy":
+			speakerSprite[pageNumber] = spr_Toothy;
+			break;
+		case "Gnomes":
+			speakerSprite[pageNumber] = spr_Gnonmes;
+			break;
+		case "Yeti":
+			speakerSprite[pageNumber] = spr_Yeti;
+			break;
+		case "Mister Kraken":
+			speakerSprite[pageNumber] = spr_Kraken;
 			break;
 	}
 	
+	name = _name;
 	pageNumber++;
 }
 
