@@ -2,6 +2,10 @@ function gameText(_textID)
 {
 	switch(_textID) //Reference any text ID below to trigger their corresponding dialogue.
 	{
+		case "Kraken":
+			callText("Hi I'm the bartender", "Mister Kraken");
+			break;
+		
 		case "Slender":
 			callText("Hi I'm the Slenderman.", "Slender");
 			
@@ -25,13 +29,13 @@ function gameText(_textID)
 			break;
 			
 			
-		case "Nessie":
-			callText("Hi I'm the Nessie.", "Nessie");
+		case "Tooth Fairy":
+			callText("Hi I'm the Tooth Fairy.", "Tooth Fairy");
 			break;
 			
 			
-		case "Bigfoot":
-			callText("Hi I'm the Bigfoot.", "Bigfoot");
+		case "Yeti":
+			callText("Hi I'm the Yeti.", "Yeti");
 			break;
 			
 			

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Slender",
-    "path":"sprites/spr_Slender/spr_Slender.yy",
+    "name":"noCharacter",
+    "path":"sprites/noCharacter/noCharacter.yy",
   },
   "spriteMaskId":null,
   "visible":true,
