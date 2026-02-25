@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Day_Complete",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":10.611519,
+  "exportDir":"",
+  "name":"Day_Complete",
+  "parent":{
+    "name":"Mythical_Dating",
+    "path":"Mythical_Dating.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Day_Complete.mp3",
+  "volume":1.0,
+}

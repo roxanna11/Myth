@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Gnome_sound_effect",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.8126984,
+  "exportDir":"",
+  "name":"Gnome_sound_effect",
+  "parent":{
+    "name":"Mythical_Dating",
+    "path":"Mythical_Dating.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Gnome_sound_effect.mp3",
+  "volume":1.0,
+}
