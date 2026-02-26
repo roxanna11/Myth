@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_LochNess",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":47,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":58,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":48,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7271eb94-ab4d-4843-9689-9ef190104d27","blendMode":0,"displayName":"default","isLocked":false,"name":"7271eb94-ab4d-4843-9689-9ef190104d27","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":59,
 }

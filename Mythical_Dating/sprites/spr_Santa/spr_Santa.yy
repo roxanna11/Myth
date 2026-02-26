@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_Santa",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":51,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":52,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"80c597be-bfe1-4acc-af2c-5adcc7e502f2","blendMode":0,"displayName":"default","isLocked":false,"name":"80c597be-bfe1-4acc-af2c-5adcc7e502f2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":32,
 }

@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_HatMan",
   "bboxMode":0,
-  "bbox_bottom":0,
+  "bbox_bottom":61,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":47,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":62,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"b97aa7d4-939e-4fc1-839f-ab72138a59bd","blendMode":0,"displayName":"default","isLocked":false,"name":"b97aa7d4-939e-4fc1-839f-ab72138a59bd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":48,
 }

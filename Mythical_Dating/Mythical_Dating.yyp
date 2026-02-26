@@ -64,6 +64,7 @@
     {"id":{"name":"spr_Gnomes","path":"sprites/spr_Gnomes/spr_Gnomes.yy",},},
     {"id":{"name":"spr_HatMan","path":"sprites/spr_HatMan/spr_HatMan.yy",},},
     {"id":{"name":"spr_houseWalls","path":"sprites/spr_houseWalls/spr_houseWalls.yy",},},
+    {"id":{"name":"spr_Kraken","path":"sprites/spr_Kraken/spr_Kraken.yy",},},
     {"id":{"name":"spr_LochNess","path":"sprites/spr_LochNess/spr_LochNess.yy",},},
     {"id":{"name":"spr_outsideStuff","path":"sprites/spr_outsideStuff/spr_outsideStuff.yy",},},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},},
