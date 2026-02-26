@@ -1,2 +1,2 @@
-layer_set_visible("Dialogue", false);
+layer_set_visible("DialogueForeground", false);
 instance_activate_object(obj_Player);

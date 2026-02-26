@@ -1,2 +1,0 @@
-textID = "Hatman";
-characterName = "Hatman";

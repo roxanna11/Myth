@@ -1,2 +1,0 @@
-
-global.shootActive = false; 

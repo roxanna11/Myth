@@ -26,15 +26,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"spriteToShow","filters":[],"listItems":[],"multiselect":false,"name":"spriteToShow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"noCharacter",
-    "path":"sprites/noCharacter/noCharacter.yy",
+    "name":"spr_speakBox",
+    "path":"sprites/spr_speakBox/spr_speakBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
