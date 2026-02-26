@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_Slenderman",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":122,
   "bbox_left":0,
-  "bbox_right":51,
+  "bbox_right":99,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":123,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"58724e36-0325-42f2-b770-9c7903d280e7","blendMode":0,"displayName":"default","isLocked":false,"name":"58724e36-0325-42f2-b770-9c7903d280e7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":52,
+  "width":100,
 }

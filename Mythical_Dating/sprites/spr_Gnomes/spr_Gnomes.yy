@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_Gnomes",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":154,
   "bbox_left":0,
-  "bbox_right":30,
+  "bbox_right":74,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":155,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"be020673-2f25-4dc6-bb84-ad73b990fd18","blendMode":0,"displayName":"default","isLocked":false,"name":"be020673-2f25-4dc6-bb84-ad73b990fd18","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":31,
+  "width":75,
 }

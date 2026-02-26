@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_Kraken",
   "bboxMode":0,
-  "bbox_bottom":55,
+  "bbox_bottom":203,
   "bbox_left":0,
-  "bbox_right":54,
+  "bbox_right":199,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":56,
+  "height":204,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"88d7245e-fe46-4233-a5d4-635a99909cf2","blendMode":0,"displayName":"default","isLocked":false,"name":"88d7245e-fe46-4233-a5d4-635a99909cf2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -87,5 +87,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":55,
+  "width":200,
 }

@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"spr_ToothFairy",
   "bboxMode":0,
-  "bbox_bottom":55,
+  "bbox_bottom":40,
   "bbox_left":0,
-  "bbox_right":54,
+  "bbox_right":39,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":56,
+  "height":41,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"8d74df74-76af-402e-855e-285ebf9ccf15","blendMode":0,"displayName":"default","isLocked":false,"name":"8d74df74-76af-402e-855e-285ebf9ccf15","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":55,
+  "width":40,
 }
