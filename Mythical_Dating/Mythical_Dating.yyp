@@ -31,6 +31,7 @@
   "resources":[
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_scenechange","path":"objects/obj_scenechange/obj_scenechange.yy",},},
+    {"id":{"name":"obj_screenSetting","path":"objects/obj_screenSetting/obj_screenSetting.yy",},},
     {"id":{"name":"obj_speakBox","path":"objects/obj_speakBox/obj_speakBox.yy",},},
     {"id":{"name":"obj_textBox","path":"objects/obj_textBox/obj_textBox.yy",},},
     {"id":{"name":"obj_wall_collision","path":"objects/obj_wall_collision/obj_wall_collision.yy",},},

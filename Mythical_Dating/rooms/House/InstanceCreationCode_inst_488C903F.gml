@@ -1,5 +1,4 @@
-/*
 
 targetRoom = BetweenBarHouse;
-targetX = 
-targetY =
+targetX = 239;
+targetY = 289;
