@@ -44,6 +44,7 @@ function gameText(_textID)
 			break;
 			case "Yeti - Met Santa?":
 				callText("Isn't he married? I mean...I guess I can do some snow with the guy. I still got a full baggy of it.", "Yeti");
+				global.likeoMeter +=25;
 				break;
 			case "Yeti - Mean":
 				callText("You don't have to be rude you know. I'm just thinking out loud, jerk.", "Yeti");
@@ -59,7 +60,7 @@ function gameText(_textID)
 			
 			case "Santa - Talk to Yeti":
 				callText("Really? Oh HO HO HO! Today's Saint Nicholas' lucky day!", "Santa");
-				//global.likeoMeter +=25;
+				global.likeoMeter +=25;
 				break;
 			case "Santa - Mean":
 				callText("Please die.", "Santa");
