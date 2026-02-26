@@ -1,3 +1,3 @@
 targetRoom = House;
-targetX = room_width/2;
-targetY = room_height/2;
+targetX = 0;
+targetY = 0;
