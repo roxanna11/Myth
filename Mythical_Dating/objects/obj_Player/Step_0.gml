@@ -35,26 +35,3 @@ if (!place_meeting(x, y + vsp, obj_wall_collision)) {
         y += step;   // scoot to wall
     }
 }
-
-
-
-//SHOOTING MACANICS 
-
-if(global.shootActive == true){
-	sprite_index = spr_PlayerShoot; 
-}
-
-//if shoot active + shoot button
-if(mouse_check_button_pressed(mb_left) && global.shootActive && cooldown >=10 ){
-	var dir = point_direction(x, y, mouse_x, mouse_y);
-	var arrow = instance_create_layer(x, y, "player", obj_ArrowProjectile);
-	arrow.direction = dir;
-    arrow.speed = 12;
-	// apply same offset here (match your sprite)
-	arrow.image_angle = dir - 90;
-	cooldown = 0; 
-}
-
-if(cooldown <= 10){
-	cooldown += 1; 
-}
