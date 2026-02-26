@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"TimerFont",
   "parent":{
-    "name":"Font",
-    "path":"folders/Objects/Font.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "pointRounding":0,
   "ranges":[
