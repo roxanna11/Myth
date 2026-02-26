@@ -2,10 +2,24 @@ function gameText(_textID)
 {
 	switch(_textID) //Reference any text ID below to trigger their corresponding dialogue.
 	{
-		case "Kraken":
-			callText("Hi I'm the bartender", "Mister Kraken");
+		case "Kraken - Message":
+			callText("Did you get my message?", "Mister Kraken");
+			callOption("Of course not.", "Kraken - No");
+			callOption("Yes.", "Kraken - Yes");
 			break;
-		
+			case "Kraken - No":
+				callText("Well, you're the mythic matchmaker, so I wondering if you were willing to help two myths out.", 
+					"Mister Kraken");
+				callText("Santa and Yeti are in the bathroom doing drugs again.", 
+					"Mister Kraken");
+				break;
+			case "Kraken - Yes":
+				callText("Bet. Santa and Yeti are in the bathroom doing drugs again.", "Mister Kraken");
+				break;
+				
+				
+				
+				
 		case "Slender":
 			callText("Hi I'm the Slenderman.", "Slender");
 			
