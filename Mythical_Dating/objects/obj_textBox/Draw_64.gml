@@ -80,7 +80,7 @@ if (speakerSprite[page] != noone)
 	var _speakerX = textBoxX - portrait_x_offset[page];
 	
 	draw_sprite_ext(speakerSprite[page], 0, camera_get_view_width(view_camera[0]), 
-		camera_get_view_height(view_camera[0]), speakerSide[page] * 2, speakerSide[page] * 2, 0, c_white, 1);
+		camera_get_view_height(view_camera[0]), 2.5, 2.5, 0, c_white, 1);
 }
 
 draw_sprite_ext(textBoxSpr, 0, textBoxX + text_x_offset[page], textBoxY, 
