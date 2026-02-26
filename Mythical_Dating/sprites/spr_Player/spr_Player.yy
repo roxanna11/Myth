@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_Player",
   "bboxMode":0,
-  "bbox_bottom":89,
+  "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":63,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":90,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"c5d8b42d-cf62-4f4c-9bc8-d995a8dbaea7","blendMode":0,"displayName":"default","isLocked":false,"name":"c5d8b42d-cf62-4f4c-9bc8-d995a8dbaea7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Characters",
-    "path":"folders/Sprites/Characters.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
