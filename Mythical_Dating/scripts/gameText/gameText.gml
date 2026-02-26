@@ -25,7 +25,7 @@ function gameText(_textID)
 			break;
 				
 		case "Gnomes":
-			callText("Hi we're the Gnomes, and we're just gnoming around right now.", "Gnomes");
+			callText("Hi we're the Gnomes, and we're just chilling around right now.", "Gnomes");
 			break;
 			
 			
@@ -64,5 +64,8 @@ function gameText(_textID)
 			case "Santa - Mean":
 				callText("Please die.", "Santa");
 				break;
+		case "Hatman":
+			callText("I AM THE HATMAN! I AM IN YOUR BRAINS! I AM IN YOUR DREAMS! I AM YOUR NIGHTMARES!", "Hatman");
+			break;
 	}
 }

@@ -35,6 +35,9 @@ function callText(_text, _name)
 		case "Kraken":
 			speakerSprite[pageNumber] = spr_Kraken;
 			break;
+		case "Hatman":
+			speakerSprite[pageNumber] = spr_Hatman;
+			break;
 		case "Phone":
 			speakerSprite[pageNumber] = spr_Phone;
 			break;

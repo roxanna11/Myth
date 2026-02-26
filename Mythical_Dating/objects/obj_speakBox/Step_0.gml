@@ -25,6 +25,9 @@ switch(characterName)
 	case "Kraken":
 		sprite_index = spr_Kraken;
 		break;
+	case "Hatman":
+		sprite_index = spr_Hatman;
+		break;
 	case "Phone":
 		sprite_index = spr_Phone;
 		break;
