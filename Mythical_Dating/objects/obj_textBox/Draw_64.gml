@@ -3,8 +3,8 @@ acceptKey = keyboard_check_pressed(vk_space);
 movementKeys = (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(ord("A")) || 
 	keyboard_check_pressed(ord("S")) || keyboard_check_pressed(ord("D")))
 
-textBoxX = 96;
-textBoxY = 480;
+textBoxX = camera_get_view_width(view_camera[0]) - 600;
+textBoxY = camera_get_view_height(view_camera[0]) + 300;
 
 //setup
 if(setup == false)
@@ -42,9 +42,10 @@ if(drawChar < text_length[page])
 //flip through pages
 if(acceptKey || (movementKeys && instance_exists(obj_Player)))
 {
+	
 	//If text is done typing
 	if(drawChar == text_length[page])
-	{
+	{	
 		if(page < pageNumber - 1)
 		{
 			page++;
@@ -78,7 +79,8 @@ if (speakerSprite[page] != noone)
 	//sprite_index = speakerSprite[page];
 	var _speakerX = textBoxX - portrait_x_offset[page];
 	
-	draw_sprite_ext(speakerSprite[page], 0, room_width/2, room_height/2, speakerSide[page], speakerSide[page], 0, c_white, 1);
+	draw_sprite_ext(speakerSprite[page], 0, camera_get_view_width(view_camera[0]), 
+		camera_get_view_height(view_camera[0]), 2.5, 2.5, 0, c_white, 1);
 }
 
 draw_sprite_ext(textBoxSpr, 0, textBoxX + text_x_offset[page], textBoxY, 

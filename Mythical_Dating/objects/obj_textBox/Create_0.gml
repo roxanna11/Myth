@@ -1,3 +1,7 @@
+name = "";
+
+global.game_minutes += 30;
+
 depth = -999;
 
 //Text box parameters:
@@ -9,16 +13,16 @@ lineWidth = textBoxW - border * 2;
 
 textBoxSpr = spr_TextBackground;
 
+
+char[0, 0] = "";
+charX[0, 0] = 0;
+charY[0, 0] = 0;
+
 //page
 text[0] = "";
-name = "LArry";
 text_length[0] = string_length(text[0]);
 page = 0;
 pageNumber = 0;
-
-//speakerSprite[0] = spr_speakBox;
-//speakerSide[0] = noone;
-
 drawChar = 0;
 textSpeed = 1;
 
@@ -32,7 +36,8 @@ setup = false;
 
 text_x_offset[0] = 44;
 
-layer_set_visible("DialogueForeground", true);
+layer_set_visible("Dialogue", true);
 instance_deactivate_object(obj_Player);
 
-callSprite();
+setDefaults();
+lastFreeSpace = 0;
