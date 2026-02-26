@@ -1,3 +1,5 @@
+name = "";
+
 global.game_minutes += 30;
 
 depth = -999;
@@ -18,7 +20,6 @@ charY[0, 0] = 0;
 
 //page
 text[0] = "";
-name = "";
 text_length[0] = string_length(text[0]);
 page = 0;
 pageNumber = 0;

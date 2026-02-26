@@ -5,7 +5,7 @@ if(position_meeting(mouse_x, mouse_y, id) && mouse_check_button_pressed(mb_left)
 
 }
 
-switch(textID)
+switch(characterName)
 {
 	case "Slender":
 		sprite_index = spr_Slender;
@@ -24,6 +24,9 @@ switch(textID)
 		break;
 	case "Kraken":
 		sprite_index = spr_Kraken;
+		break;
+	case "Phone":
+		sprite_index = spr_Phone;
 		break;
 	default:
 		show_debug_message("No sprite");

@@ -1,1 +1,2 @@
 textID = "Slender";
+characterName = "Slender";
