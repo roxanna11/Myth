@@ -1,3 +1,3 @@
 targetRoom = BetweenBarHouse;
-targetX = 1184;
-targetY = 668;
+targetX = 1243;
+targetY = 411;
