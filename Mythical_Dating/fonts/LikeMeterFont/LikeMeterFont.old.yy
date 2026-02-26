@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"TimerFont",
+  "%Name":"LikeMeterFont",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":43,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":60,
   "maintainGms1Font":false,
-  "name":"TimerFont",
+  "name":"LikeMeterFont",
   "parent":{
     "name":"Font",
     "path":"folders/Objects/Font.yy",
