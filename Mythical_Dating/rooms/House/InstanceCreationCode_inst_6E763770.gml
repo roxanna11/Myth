@@ -1,1 +1,0 @@
-textID = "Tooth Fairy";

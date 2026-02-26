@@ -1,0 +1,2 @@
+textID = "Santa";
+characterName = "Santa";
