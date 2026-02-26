@@ -7,6 +7,9 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 38e4c60 (Merge pull request #21 from roxanna11/Lance_CleanUp)
     {"name":"inst_6E4DFF5E","path":"rooms/BetweenBarHouse/BetweenBarHouse.yy",},
     {"name":"inst_74661527","path":"rooms/BetweenBarHouse/BetweenBarHouse.yy",},
     {"name":"inst_7B0817F7","path":"rooms/BetweenBarHouse/BetweenBarHouse.yy",},
