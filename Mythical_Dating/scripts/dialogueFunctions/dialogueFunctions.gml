@@ -1,13 +1,19 @@
-function callSprite()
+function setDefaults()
 {
+	lineBreakPos[0, pageNumber] = 999;
+	lineBreakNum[pageNumber] = 0;
+	lineBreakOffset[pageNumber] = 0;
+	
 	speakerSprite[pageNumber] = noone;
 	speakerSide[pageNumber] = 1;
 }
+
 
 ///@param dialogue text
 function callText(_text, _name)
 { //Creates text
 	text[pageNumber] = _text;
+	
 	
 	switch(_name)
 	{
@@ -26,7 +32,7 @@ function callText(_text, _name)
 		case "Yeti":
 			speakerSprite[pageNumber] = spr_Yeti;
 			break;
-		case "Mister Kraken":
+		case "Kraken":
 			speakerSprite[pageNumber] = spr_Kraken;
 			break;
 	}

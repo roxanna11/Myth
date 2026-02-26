@@ -3,18 +3,16 @@ function gameText(_textID)
 	switch(_textID) //Reference any text ID below to trigger their corresponding dialogue.
 	{
 		case "Kraken - Message":
-			callText("Did you get my message?", "Mister Kraken");
+			callText("Did you get my message?", "Kraken");
 			callOption("Of course not.", "Kraken - No");
 			callOption("Yes.", "Kraken - Yes");
 			break;
 			case "Kraken - No":
-				callText("Well, you're the mythic matchmaker, so I wondering if you were willing to help two myths out.", 
-					"Mister Kraken");
-				callText("Santa and Yeti are in the bathroom doing drugs again.", 
-					"Mister Kraken");
+				callText("Well, you're the mythic matchmaker, so I wondering if you were willing to help two myths out. Santa's single, and Yeti's looking for someone special.", 
+					"Kraken.");
 				break;
 			case "Kraken - Yes":
-				callText("Bet. Santa and Yeti are in the bathroom doing drugs again.", "Mister Kraken");
+				callText("Bet. Santa and Yeti are using snow this time.", "Kraken");
 				break;
 				
 				
@@ -54,7 +52,7 @@ function gameText(_textID)
 			
 			
 		case "Santa":
-			callText("Hi I'm a fucking mess", "Santa");
+			callText("Hi I'm a mess. Miss Claus left me, I'm getting sued for running over someone's grandma, and all I have left is my candy cane", "Santa");
 			
 			callOption("FIMWOUFUUNWUFWF", "Santa - Greeting");
 			break;
